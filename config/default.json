@@ -1,0 +1,10 @@
+{
+  "dbConfig": {
+    "host": "test-instance-1-cluster.cluster-cys30lik4v4w.us-east-1.rds.amazonaws.com",
+    "port": 5432,
+    "dbName": "test_assignment",
+    "user": "test-assignment",
+    "password": "gfdjh24m,sddsf"
+  },
+  "port": 8000
+}

@@ -1,0 +1,45 @@
+<div class="charts">
+  <div class="chart-content">
+    <h2>Listings per new content</h2>
+    <canvas id="chartPerNewListing" width="500px" height="500px" ></canvas>
+  </div>
+  <div class="chart-content">
+  <h2>Listings per revenue</h2>
+    <canvas id="chartPerRevenue" width="500px" height="500px" ></canvas>
+  </div>
+</div>
+
+<div class="filter">
+  <select id="filter-field">
+    <option></option>
+    <option value="id">Listing ID</option>
+    <option value="month">Listing Month</option>
+    <option value="date">Listing Date</option>
+    <option value="broker_name">Broker</option>
+    <option value="avg_revenue_per_listing">Revenue</option>
+  </select>
+
+  <select id="filter-type">
+    <option value="like">like</option>
+    <option value="!=">!=</option>
+  </select>
+
+  <input id="filter-value" type="text" placeholder="value to filter">
+
+  <button id="filter-clear">Clear Filter</button>
+</div>
+
+<div id="table"></div>
+
+
+<script>
+  var graphContent = {{{graphs}}}
+
+  var graphLabels = {{{labels}}}
+
+  var datasets = {{{datasets}}}
+</script>
+
+<script src="/javascripts/index.js"></script>
+
+

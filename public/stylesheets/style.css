@@ -1,0 +1,12 @@
+.charts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.chart-content {
+  width: 500px;
+  margin-bottom: 10px;
+}
+#table, .filter{
+  margin: 20px 50px
+}
